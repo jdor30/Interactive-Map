@@ -1,0 +1,44 @@
+
+body{
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+header{
+  width: 100%;
+  background-color: tomato;
+}
+.column {
+  float: left;
+}
+
+.left {
+  width: 75%;
+}
+
+.right {
+  width: 25%;
+}
+
+svg path{
+    cursor: pointer
+}
+svg path:hover{
+    fill:tomato;
+ }
+ .world-map{
+  width:95%;
+ }
+.list-container{
+  border:solid black;
+  border-radius: 5px;
+  padding: 2%;
+  background-color: rgb(227, 219, 184);
+  font-size: small;
+  font-weight: 80;
+  color: blue
+}
+ul li{
+margin-bottom: 10px;
+}
+#name{
+  color: rgb(119, 5, 5);
+}
