@@ -2,10 +2,12 @@
 body{
   font-family:Verdana, Geneva, Tahoma, sans-serif
 }
+
 header{
   width: 100%;
   background-color: tomato;
 }
+
 .column {
   float: left;
 }
@@ -19,14 +21,17 @@ header{
 }
 
 svg path{
-    cursor: pointer
+  cursor: pointer
 }
+
 svg path:hover{
-    fill:tomato;
- }
- .world-map{
+  fill:tomato;
+}
+
+.world-map{
   width:95%;
- }
+}
+
 .list-container{
   border:solid black;
   border-radius: 5px;
@@ -36,9 +41,11 @@ svg path:hover{
   font-weight: 80;
   color: blue
 }
+
 ul li{
-margin-bottom: 10px;
+  margin-bottom: 10px;
 }
+
 #name{
   color: rgb(119, 5, 5);
 }
